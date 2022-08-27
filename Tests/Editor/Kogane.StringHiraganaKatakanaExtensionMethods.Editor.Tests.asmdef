@@ -1,0 +1,18 @@
+{
+    "name": "Kogane.StringHiraganaKatakanaExtensionMethods.Editor.Tests",
+    "rootNamespace": "",
+    "references": [
+        "GUID:8de381fbdcf7e9a43b4c403eba742d1d"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
