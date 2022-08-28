@@ -2,6 +2,22 @@
 
 文字列中のひらがなとカタカナを変換できる拡張メソッド
 
+## 使用例
+
+```csharp
+using Kogane;
+using UnityEngine;
+
+public class Example : MonoBehaviour
+{
+    private void Start()
+    {
+        Debug.Log( "あいうえお".ToKatakana() ); // アイウエオ
+        Debug.Log( "アイウエオ".ToHiragana() ); // あいうえお
+    }
+}
+```
+
 ## 備考
 
 * 本リポジトリは以下のサイト様のプログラムを使用させていただいております
