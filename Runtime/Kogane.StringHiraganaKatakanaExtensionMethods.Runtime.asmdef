@@ -1,3 +1,14 @@
 {
-    "name": "Kogane.StringHiraganaKatakanaExtensionMethods.Runtime"
+    "name": "Kogane.StringHiraganaKatakanaExtensionMethods.Runtime",
+    "rootNamespace": "",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": true
 }
