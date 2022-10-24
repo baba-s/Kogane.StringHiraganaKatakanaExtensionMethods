@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.Linq;
+using System.Text;
 
 namespace Kogane
 {
@@ -51,6 +52,24 @@ namespace Kogane
             }
 
             return stringBuilder.ToString();
+        }
+
+        /// <summary>
+        /// 指定された文字がひらがなの場合 true を返します
+        /// </summary>
+        public static bool IsHiragana( this char self )
+        {
+            //「ぁ」～「より」までと、「ー」「ダブルハイフン」をひらがなとする
+            return ( '\u3041' <= self && self <= '\u309F' )
+                || self == '\u30FC' || self == '\u30A0';
+        }
+
+        /// <summary>
+        /// 指定された文字列がひらがなの場合 true を返します
+        /// </summary>
+        public static bool IsHiragana( this string self )
+        {
+            return self.All( c => IsHiragana( c ) );
         }
     }
 }
